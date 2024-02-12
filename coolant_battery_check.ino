@@ -28,7 +28,7 @@ int buzzer = 49;
 //end pin
 /* GLobal VAR */
 int motorspeed =0;
-int passcode =1234;
+int passcode =1234; // access code for security check
 /*-----( Declare objects )-----*/
 IRrecv irrecv(receiver);     // create instance of 'irrecv'
 decode_results results;      // create instance of 'decode_results'
