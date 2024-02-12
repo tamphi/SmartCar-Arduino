@@ -30,6 +30,7 @@ void loop() {
    delay(50);
    digitalWrite(motorPin,100);
    unsigned int distance = sonar.ping_cm();
+   //output warning LED light based on distance of object 
    if ( distance <= 30) {
     pinMode(green,HIGH);
     digitalWrite(motorPin,175);
