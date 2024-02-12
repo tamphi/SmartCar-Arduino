@@ -7,6 +7,8 @@ import serial
 import threading
 import continuous_threading
 
+### Display car GUI
+
 bg_color = "Lightpink1"
 def create_circle(x,y,r,color,canvasName):
     x0 = x-r
